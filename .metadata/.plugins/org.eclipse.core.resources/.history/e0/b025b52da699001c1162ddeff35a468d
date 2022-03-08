@@ -1,0 +1,13 @@
+package classe;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		double[]a = new double[6];
+		a[2]=10;
+		a[4]=8;
+		
+		System.out.println(a[4]);
+	}
+}

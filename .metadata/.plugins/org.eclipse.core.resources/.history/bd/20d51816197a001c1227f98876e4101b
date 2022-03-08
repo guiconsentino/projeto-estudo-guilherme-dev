@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class NotaçãoPonto {
+
+	String s = "Bom dia x";
+
+	
+
+}
+}

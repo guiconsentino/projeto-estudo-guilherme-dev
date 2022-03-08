@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="classe.Produto"/>
+    <fullyQualifiedTypeName name="classe.Carro"/>
+    <fullyQualifiedTypeName name="classe.AreaCirc"/>
+    <fullyQualifiedTypeName name="classe.Aluno"/>
+    <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="classe.DesafioModulo.Comida"/>
+    <fullyQualifiedTypeName name="controle.For1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

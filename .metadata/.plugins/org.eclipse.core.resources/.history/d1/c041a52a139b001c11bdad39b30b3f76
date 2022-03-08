@@ -1,0 +1,27 @@
+package arrays;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Matriz {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Quantidade de alunos: ");
+		int quantidadeAlunos = entrada.nextInt();
+		
+		System.out.println("Notas dos alunos: ");
+		int notasDosAlunos = entrada.nextInt();
+		
+		double notasDaTurma[][] = new double [quantidadeAlunos][notasDosAlunos];
+
+	
+	System.out.println(notasDaTurma);
+	
+	
+	}
+
+
+}

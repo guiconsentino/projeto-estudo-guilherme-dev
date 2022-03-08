@@ -1,0 +1,39 @@
+package colecoes;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Fila {
+
+	public static void main(String[] args) {
+		
+		Queue<String>Fila = new LinkedList<>();
+		
+		Fila.add("golimar");
+		Fila.add("catatau");
+		Fila.add("sabirila");
+		Fila.add("josias");
+		Fila.add("marrom");
+		Fila.add("biruleibe");
+		
+		System.out.println(Fila);
+		
+		System.out.println(Fila.peek());
+		System.out.println(Fila.peek());
+		System.out.println(Fila.element());
+		System.out.println(Fila.element());
+
+//		System.out.println(Fila.size());
+//		System.out.println(Fila.isEmpty());
+//		System.out.println(Fila.clear());
+		
+        System.out.println(Fila.poll());		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

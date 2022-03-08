@@ -1,0 +1,14 @@
+package classe.DesafioModulo;
+
+public class Pessoa {
+
+	//atributos
+	String nome = "Guilherme";
+	double peso = 80;
+	
+	
+	//metodos
+   void comer(double Pesocomida) {
+	   peso += Pesocomida;
+   }
+}

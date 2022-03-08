@@ -1,0 +1,23 @@
+package classe;
+
+import java.util.Scanner;
+
+public class Aprendendo {
+public static void main(String[] args) {
+	
+	Scanner entrada = new Scanner(System.in);
+	
+	System.out.println("Digite seu salario: ");
+	double salario = entrada.nextDouble();
+	
+	System.out.println("Digite sua horas trabalhadas: ");
+	int horasTrabalhadas = entrada.nextInt();
+	
+	double valorHora = salario / horasTrabalhadas;
+	System.out.println("valor hora do funcionario: " + valorHora);
+	
+	
+	
+	entrada.close();
+}
+}

@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Ola pessoal".charAt(5));
+		//.charAt serve para saber em qual posição esta a letra começando do 0
+		
+		String s = "Boa tarde";
+		System.out.println(s.concat("!!!!));
+	}
+	
+}

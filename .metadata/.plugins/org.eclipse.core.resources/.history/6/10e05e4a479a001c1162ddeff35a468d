@@ -1,0 +1,29 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioArray {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		double notaMedia = 0.0;
+		
+		System.out.println("Digite a quantidade de notas:");
+		int quantidadeNotas = input.nextInt();
+		double notasAluno[] = new double[quantidadeNotas];
+		
+		for(double nota: notasAluno) 
+		{
+			System.out.println("Digite a nota:");
+			nota = input.nextDouble();
+			notaMedia += nota;
+		}
+		
+		System.out.println("A média final é: " + notaMedia/quantidadeNotas);
+		
+		input.close();
+	}
+
+	}
+
