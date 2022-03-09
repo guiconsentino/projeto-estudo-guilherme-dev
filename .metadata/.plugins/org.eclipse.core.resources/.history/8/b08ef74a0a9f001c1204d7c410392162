@@ -31,13 +31,10 @@ public class Fila {
 //		System.out.println(Fila.isEmpty());
 //		System.out.println(Fila.clear());
 		
-		
-		//poll e remove -> obter o proximo elemento da fila e remove
         System.out.println(Fila.poll());	
         System.out.println(Fila.poll());		
         System.out.println(Fila.poll());		
         System.out.println(Fila.remove());		
-        System.out.println(Fila.poll());		
         System.out.println(Fila.poll());		
         System.out.println(Fila.poll());		
         System.out.println(Fila.poll());		
