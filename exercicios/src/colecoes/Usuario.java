@@ -14,10 +14,15 @@ public class Usuario {
 		return "meu nome é: " + this.nome + ".";
 	}
 
+	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		final int prime = 31;
+		int result = 1;
+		result = prime * result +((nome == null) ? 0 : result);
+		return result;
 	}
 
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
@@ -28,5 +33,8 @@ public class Usuario {
 		Usuario other = (Usuario) obj;
 		return Objects.equals(nome, other.nome);
 	}
+
+	
+	
 
 }

@@ -1,0 +1,12 @@
+package colecoes;
+
+public class Hash {
+
+	public static void main(String[] args) {
+		
+		Hash<Usuaurio> usuarios = new Hash<Usuario>();
+		
+		
+	}
+	
+}

@@ -1,0 +1,12 @@
+package colecoes;
+
+public class HashSet {
+
+	public static void main(String[] args) {
+		
+		Hash<Usuaurio> usuarios = new Hash<Usuario>();
+		
+		
+	}
+	
+}
