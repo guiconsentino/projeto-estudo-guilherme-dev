@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.Aluno"/>
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="classe.DesafioModulo.Comida"/>
     <fullyQualifiedTypeName name="controle.For1"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
@@ -20,7 +19,6 @@
     <fullyQualifiedTypeName name="java.lang.SecurityException"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="classe.Caneta"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -31,4 +29,8 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="colecoes.HashSet"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oo.composicao.carroTeste"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.composicao.Item"/>
 </qualifiedTypeNameHistroy>
