@@ -12,10 +12,11 @@ public class AlunoTeste {
 		System.out.println(aluno1.getNome());
 
 		// aluno1.idade = 150;
-		aluno1.setIdade(140);
-
+		aluno1.setIdade(99);
+		System.out.println("eu tenho " + aluno1.idade + " anos");
+		
 		// aluno1.nota = 8;
-		aluno1.setNota(8);	
+		aluno1.setNota(9);	
 		
 	}
 

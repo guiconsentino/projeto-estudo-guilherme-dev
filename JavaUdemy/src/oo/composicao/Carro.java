@@ -2,27 +2,23 @@ package oo.composicao;
 
 public class Carro {
 
-	final Motor motor;
-	
-	Carro(){
-		this.motor = new Motor(this);
-	}
+	Motor motor = new Motor();
 
 	void acelerar() {
-		if (motor.fatorInjecao < 3) {
-			System.out.println(motor.giros() + " Rpm");
-			motor.fatorInjecao += 0.4;
-		} else {
-			System.out.println("raaandandandandan " + motor.giros() + " Rpm");
-
+		if(motor.fatorInjeção < 2.6) {
+		motor.fatorInjeção += 0.4;
+		System.out.println(motor.rotacao());
+		}else {
+			System.out.println("randandan");
 		}
 	}
 
 	void frear() {
-		if (motor.fatorInjecao > 0.4) {
-			motor.fatorInjecao -= 0.4;
-		} else {
-			System.out.println(motor.giros()+" carro morreu");
+		if(motor.fatorInjeção > 0.5) {
+		motor.fatorInjeção -= 0.4;
+		}else {
+			motor.ligado = false;
+			System.out.println("morreu");
 		}
 	}
 
@@ -30,11 +26,12 @@ public class Carro {
 		motor.ligado = true;
 	}
 
-	void desligar() {
+	void desligado() {
 		motor.ligado = false;
 	}
 
 	boolean estaLigado() {
 		return motor.ligado;
+
 	}
 }
