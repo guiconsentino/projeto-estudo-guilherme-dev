@@ -4,35 +4,17 @@ public class Mamifero {
 
 	public static void main(String[] args) {
 
-		Animal cachorro = new Animal("pastor alemão");
+		Animal animal1 = new Animal();
 		
-		cachorro.principaisCaract = "morde";
-		cachorro.habitat = "domestico";
-		cachorro.locomocao = "quatro patas";
-		cachorro.reproducao = "sexuada";
-
-		System.out.println(cachorro.nome);
+		animal1.habitat = "mata";
+		animal1.locomocao = "quadrupede";
+		animal1.principaisCaract = "tem chifres";
+		animal1.reproducao = "sexuada";
 		
-		cachorro.respirar();
-
-		cachorro.animais.add(cachorro);
+		animal1.respirar();
 		
-		System.out.println(cachorro.obterQuantidadeAnimais());
-	
-	    Animal cachorro2 = new Animal("pastor alemão");
 		
-		cachorro2.principaisCaract = "morde";
-		cachorro2.habitat = "domestico";
-		cachorro2.locomocao = "quatro patas";
-		cachorro2.reproducao = "sexuada";
-
-		System.out.println(cachorro.nome);
-		
-		cachorro2.respirar();
-
-		cachorro2.animais.add(cachorro2);
-		
-		System.out.println(cachorro2.obterQuantidadeAnimais());
+	   
 	}
 
 }
